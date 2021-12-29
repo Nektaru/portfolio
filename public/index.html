@@ -3,15 +3,124 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Tailwind CSS Starter</title>
+        <title>Alejandro López</title>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <link rel="stylesheet" href="styles.css" />
     </head>
-    <body>
-        <h1
-            class="font-bold text-3xl text-center max-w-2xl mx-auto mt-12 bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text text-transparent"
-        >
-            If you see a beautiful gradient on this text, Tailwind CSS is
-            successfully installed and setup
-        </h1>
+    <body class="antialiased text-gray-600">
+        <div class="absolute w-full min-h-screen">
+            <div class="absolute top-0 w-full h-1/2 bg-cover bg-bottom" style="background-image:url('images/1947484.jpg');">
+            <section class="flex justify-center items-center min-h-screen">
+                <div class="relative">
+                        <div class="bg-card--primary"></div>
+                    <div class="relative md:flex space-x-12 z-10 bg-white max-w-4xl p-12 md:rounded shadow-md">
+                        <div class="py-4">
+                            <div class="flex flex-col space-y-6 justify-between py-4">    
+                                <p class="text-lg">Hello, I am </p>
+                                <h1 class="text-5xl font-bold text-gray-800">Alex López</h1>
+                                <p class="text-xl leading-relaxed">Junior Full-Stack web developer excited to learn more and more! I just finished the Web-Development bootcamp in Ironhack and now I'm thirsty of knowledge!</p>
+                            </div>
+                            <div class="inline-flex space-x-4 text-6xl ">
+                                <a href="mailto:alexlopezz21@gmail.com"><ion-icon name="mail-unread-outline" class=" hover:text-red-500 rounded-3xl"></ion-icon></a>
+                                <a href="https://twitter.com/Nektaruu"><ion-icon name="logo-twitter" class=" hover:text-blue-400 rounded-3xl"></ion-icon></a>
+                                <a href="https://www.linkedin.com/in/alejandro-l%C3%B3pez-santiago-4519a5223/"><ion-icon name="logo-linkedin" class=" hover:text-blue-900 rounded-3xl"></ion-icon></a>
+                                <a href="https://github.com/Nektaru"><ion-icon name="logo-github" class=" hover:text-black rounded-3xl"></ion-icon></a>
+                            </div>
+                        </div>
+                        <img src="images/IMG_20211228_142142_754.jpg" alt="" class="w-80 rounded-full border-6 border-white shadow-md flex-shrink-0">
+                    </div>
+                </div>
+            </section>
+            <section class="bg-gray-50 pt-20 pb-28 px-8">
+                <div class="max-w-6xl mx-auto">
+                    <div class="text-center">
+                        <h2 class="text-6xl text-gray-800 font-bold">Services</h2>
+                        <p class="pt-2">Here's what i offer</p>
+                    </div>
+                </div>
+                <div class="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
+                    <div class="relative">
+                        <div class="bg-card"></div>
+                            <div class="relative z-10 bg-white p-12 rounded-md shadow-md">
+                                <ion-icon name="layers-outline" class="text-5xl text-cyan-600"></ion-icon>
+                                <h3 class="mt-3 text-2xl font-bold">Full Stack</h3>
+                                <p class="mt-4">I am familiar with Javascript (ES6) | Mongodb | Express | React | NodeJS | HTML and CSS </p>
+                             </div>
+                    </div>
+                    <div class="relative">
+                        <div class="bg-card"></div>
+                            <div class="relative z-10 bg-white p-12 rounded-md shadow-md">
+                                <ion-icon name="phone-portrait-outline" class="text-5xl text-cyan-600"></ion-icon>
+                                <h3 class="mt-3 text-xl font-bold">Responsive websites</h3>
+                                <p class="mt-4">I have learned how to use flexbox, bootstrap and tailwindcss. Let's build your dream! 
+                                </p>
+                             </div>
+                    </div>
+                    <div class="relative">
+                        <div class="bg-card"></div>
+                            <div class="relative z-10 bg-white p-12 rounded-md shadow-md">
+                                <ion-icon name="chatbubbles-outline" class="text-5xl text-cyan-600"></ion-icon>
+                                <h3 class="mt-3 text-2xl font-bold">Languages</h3>
+                                <p class="mt-4">
+                                    Communication will be always easy since I can speak English and Spanish fluently.
+                                </p>
+                             </div>
+                    </div>
+                </div>    
+            </section>      
+            <section class="pt-20 pb-28 px-6">
+                <div class="max-w-6xl mx-auto">
+                    <div class="text-center">
+                        <h2 class="text-6xl text-gray-800 font-bold">Projects</h2>
+                        <p class="pt-2">Some of my best works</p>
+                    </div>
+                    <div class="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+                        <div class="rounded-md shadow-md">
+                            <img src="images/image_2021-12-28_16-30-59.png" class="h-100 w-full object-contain" alt="">
+                            <div class="p-8">
+                                <h4 class="pt-2 font-bold text-2xl">HackWars</h4>
+                                <p class="pt-2">Classic 2-D shooter videogame with Star Wars themes developed with Canvas and DOM manipulation.</p>
+                                <a href="https://kain-cg.github.io/Hack-Wars/" class="inline-block mt-4 font-bold text-white text-sm bg-gradient-to-r from-cyan-400 to-emerald-400 px-6 py-2 rounded-md shadow-md">Play it!</a>
+                            </div>
+                        </div>
+                        <div class="rounded-md shadow-md">
+                            <img src="images/image_2021-12-28_16-42-25.png" class="h-100 w-full object-contain" alt="">
+                            <div class="p-8">
+                                <h4 class="pt-2 font-bold text-2xl">Wave-app</h4>
+                                <p class="pt-2">Wave App is a web-app where you can listen to music and artists from every corner of the world and mix your favourite songs with the built-in DJ Controller. Developed with Handlebars and used the Deezer API.</p>
+                                <a href="https://wave-app-pro.herokuapp.com/" class="inline-block mt-4 font-bold text-white text-sm bg-gradient-to-r from-cyan-400 to-emerald-400 px-6 py-2 rounded-md shadow-md">Hear it!</a>
+                            </div>
+                        </div>
+                        <div class="rounded-md shadow-md">
+                            <img src="images/photo_2021-12-28_16-43-26.jpg" class="h-100 w-full object-contain" alt="">
+                            <div class="p-8">
+                                <h4 class="pt-2 font-bold text-2xl">Badflix</h4>
+                                <p class="pt-2">Everybody loves films that pretend to be good and they're really bad. 
+                                    Badflix brings together the worst of the worst in film history. Developed with React, NodeJS, Express, MongoDB, Mongoose, Vanilla JavaScript, IMDB API, HTML5, CSS3, and Bootstrap.</p>
+                                <a href="https://badflix-project.herokuapp.com/" class="inline-block mt-4 font-bold text-white text-sm bg-gradient-to-r from-cyan-400 to-emerald-400 px-6 py-2 rounded-md shadow-md">Check it!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+            <section class="bg-gray-50 pt-20 pb-28 px-8">
+                <div class="max-w-6xl mx-auto">
+                    <div class="text-center">
+                        <h2 class="text-6xl text-gray-800 font-bold">Let's get in touch!</h2>
+                        <p class="pt-6 text-2xl">Contact me on:</p>
+                        <div class="inline-flex space-x-4 text-8xl">
+                            <a href="mailto:alexlopezz21@gmail.com"><ion-icon name="mail-unread-outline" class="bg-cyan-400 hover:text-white bg-emerald-400 rounded-3xl"></ion-icon></a>
+                            <a href="https://twitter.com/Nektaruu"><ion-icon name="logo-twitter" class="bg-white hover:text-white bg-cyan-400 rounded-3xl"></ion-icon></a>
+                            <a href="https://www.linkedin.com/in/alejandro-l%C3%B3pez-santiago-4519a5223/"><ion-icon name="logo-linkedin" class="bg-white hover:text-white bg-emerald-400 rounded-3xl"></ion-icon></a>
+                            <a href="https://github.com/Nektaru"><ion-icon name="logo-github" class="bg-white hover:text-white bg-cyan-400 rounded-3xl"></ion-icon></a>
+                        </div>
+                        <p class="pt-16">
+                            © Website created by Alejandro López
+                        </p>
+                    </div>
+                    
+        </div>
     </body>
-</html>
+    </html>
+    

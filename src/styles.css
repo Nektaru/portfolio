@@ -1,3 +1,14 @@
 @tailwind base;
+
+.bg-card {
+    @apply absolute z-0 inset-0 bg-gradient-to-r from-cyan-400 to-emerald-400 shadow-md 
+    transform -skew-y-6 sm:skew-y-0 sm:rotate-6 sm:rounded-md;
+
+}
+
+.bg-card--primary {
+    @apply bg-card right-24;
+}
+
 @tailwind components;
 @tailwind utilities;
